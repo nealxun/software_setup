@@ -91,6 +91,8 @@
   - In the terminal, to staging a specific file: `git add FILENAME`, to add all files: `git add .`, to make a commit: `git commit -m “commit message”`.
 - Create a remote.
   - First create a repo in [GitHub](https://github.com/nealxun).
+  - Caching credentials. See [here](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git).
+    - If use `gitcreds::gitcreds_set(url = "https://github.com/")` in R to update PAT, it seems that macOS keychain will also be updated.
   - Pushing to GitHub.
     - Add a remote, in terminal, run `git remote add origin YOUR URL`. (make sure to select the https one).
     - Git push, in terminal, run `git push -u origin main` (first time push), `git push --all` (push all the branches).
