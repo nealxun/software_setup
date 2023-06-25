@@ -19,5 +19,5 @@ usethis::use_github(host = "https://github.com/")
 # switch between different remotes needs to reset the PAT
 gitcreds::gitcreds_set(url = "https://github.com/")
 
-# retrieve your credentials
+# retrieve your credentials, password is hidden
 gitcreds::gitcreds_get(url = "https://github.com/")
